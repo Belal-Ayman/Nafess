@@ -376,7 +376,6 @@ ul.list-checked li i {
 #back-to-top .top {
     position: fixed;
     color: #fff;
-    background-image: linear-gradient(to right, #455054 0%, #455054 100%) background-size: 200% auto;
     bottom: 45px;
     right: 45px;
     z-index: 999;
@@ -389,7 +388,8 @@ ul.list-checked li i {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    box-shadow: 0 20px 30px 0 rgba(12, 0, 46, .1)
+    box-shadow: 0 20px 30px 0 rgba(12, 0, 46, .1);
+    background-color:#455054;
 }
 
 #back-to-top .top:hover {
